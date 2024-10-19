@@ -1,0 +1,28 @@
+{
+  "name": "game2048",
+  "private": true,
+  "author": "lpaydat <lpaydat@gmail.com>",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json && tsc -p tsconfig.node.json"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^3.1.2",
+    "@tsconfig/svelte": "^5.0.4",
+    "svelte": "^4.2.19",
+    "svelte-check": "^4.0.4",
+    "tslib": "^2.7.0",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.8"
+  },
+  "dependencies": {
+    "@urql/svelte": "^4.2.1",
+    "graphql": "^16.9.0",
+    "graphql-ws": "^5.16.0",
+    "urql": "^4.1.0"
+  }
+}
