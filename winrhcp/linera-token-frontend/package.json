@@ -1,0 +1,18 @@
+{
+    "name": "linera-fun-frontend",
+    "version": "1.0.0",
+    "description": "Frontend for Linera.fun - A token creation dApp on Linera blockchain",
+    "main": "index.js",
+    "dependencies": {
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "axios": "^0.21.1"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    }
+  }
+  
